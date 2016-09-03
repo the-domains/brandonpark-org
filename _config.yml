@@ -1,28 +1,40 @@
-name: BrandonPark.org
-favicon: null
-layout_spectrum: 0.007315456634387374
-typography_spectrum: 0.6873190863989294
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
-opengraph:
-  image: null
-  type: null
-  appId: null
+purpose: []
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 color:
+  saturation: 0.550534
+  brandStrength: 0.3436538395471871
+  lightness: 0.1630824
   brandColors:
     - '#FF6700'
     - '#EBEBEB'
     - '#C0C0C0'
     - '#3A6EA5'
     - '#004E98'
-  brandStrength: 0.3436538395471871
-  lightness: 0.5836257785558701
-  saturation: 0.5505339235533029
-  rhythmicContrast: 0.8485057291109115
-purpose: []
+  rhythmicContrast: 0.8485057
+cta:
+  bucket: null
+  version: null
+  domain: null
+favicon: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+name: BrandonPark.org
+opengraph:
+  image: null
+  type: null
+  appId: null
+typography_spectrum: 0.2670251
+layout_spectrum: 0.453405
